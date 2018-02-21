@@ -11,14 +11,15 @@ import java.util.List;
 public abstract class Pool
 {
     private List<CashFlow> cashFlows;
-
+    
     public List<CashFlow> getCashFlows()
     {
         return cashFlows;
     }
-
+    
     public void setCashFlows(List<CashFlow> cashFlows)
     {
         this.cashFlows = cashFlows;
     }
+    
 }
